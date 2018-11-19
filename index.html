@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="normalize.css"> 
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div><a href="index.html" title="Go back to homepage"><img class="logo" src="svg/logo.svg" alt="Just Do It"></a>
+      </div>  
+      <div>
+        <ul>
+          <li><a href="#" title=""><img src="svg/general.svg" alt="">General</a></li>
+          <li><a href="#" title=""><img src="svg/details.svg" alt="">Details</a></li>
+          <li><a href="#" title=""><img src="svg/links.svg" alt="">Links</a></li>
+          <li><a href="#" title=""><img src="svg/banners.svg" alt="">Banners</a></li>
+          <li><a href="#" title=""><img src="svg/personaldata.svg" alt="">Personal Data</a></li>
+          <li><a href="#" title=""><img src="svg/payout.svg" alt="">Payout</a></li>
+          <li><a href="#" title=""><img src="svg/postback.svg" alt="">Postback</a></li>
+        </ul>
+      </div>
+    </aside>
+    <main>
+      <nav>
+        <ul class="top-nav">
+          <li class="wallet"><img class="nav-icon" src="svg/wallet.svg" alt="">$1,500.00<img src="svg/arrow-down.svg" alt="">
+          </li>
+          <li><img src="svg/notification.svg" alt="">
+          </li>
+          <li class="profile-name"><img class="nav-icon" src="svg/profile.svg" 
+             alt="">
+            Leonardo DiCaprio
+          </li>
+          <li><img src="svg/quit.svg" alt="">
+          </li>
+        </ul>
+      </nav>
+      <div class="app-container">
+        <section>
+          <h1 class="first-section-title">General statistics</h1>
+          <div class="date-form">
+            <div class="date-form-frame">
+              <label for="start"></label>
+              <input type="date" id="start" name="search-start"
+                value="2018-11-12"
+                min="2014-01-01" max="2022-12-31">
+              <label for="finish"></label>
+              <input type="date" id="start" name="search-start"
+                value="2018-11-12"
+                min="2014-01-01" max="2022-12-31">
+            </div>
+            <button class="btn">
+                <i class="fas fa-redo"></i>
+            </button>
+          </div>
+          <div class="earnings-chart">
+            <h3>Earnings chart</h3>
+            <img class="income" src="pictures/graph.png" alt="Earnings charts">>
+          </div>
+        </section>
+        <section class="link-table">
+          <h1>Other section</h1>
+          <button class="table-button">
+            <p>+ add new</p>
+          </button>
+          <table>
+            <tr>
+              <td>Home page</td>
+              <td onClick="location.href='http://www.homepage.com';">
+                http://www.homepage.com</a></td>
+            </tr>
+            <tr>
+              <td>Currently offer</td>
+              <td onClick="location.href='http://www.currently.com';">
+                http://www.currently.com</td>
+            </tr>
+            <tr>
+              <td>Blurpix</td>
+              <td onClick="location.href='http://www.blurpix.com';">
+                http://www.blurpix.com</td>
+            </tr>
+            <tr>
+              <td>Your Site</td>
+              <td onClick="location.href='http://www.yoursite.com';">
+                http://www.yoursite.com</td>
+            </tr>
+            <tr>
+              <td>Google</td>
+              <td onClick="location.href='http://www.google.com';">
+                http://www.google.com</td>
+            </tr>
+            <tr>
+              <td>Facebook</td>
+              <td onClick="location.href='http://www.facebook.com';">
+                http://www.facebook.com</td>
+            </tr>
+            <tr>
+              <td>Dashboard</td>
+              <td onClick="location.href='http://www.dashboard.com';">
+                http://www.dashboard.com</td>
+            </tr>
+            <tr>
+              <td>Blurax</td>
+              <td onClick="location.href='http://www.blurax.com';">
+                http://www.blurax.com</td>
+            </tr>
+            <tr>
+              <td>Piece of Wine</td>
+              <td onClick="location.href='http://www.pieceofwine.com';">
+                http://www.pieceofwine.com</td>
+            </tr>
+            <tr>
+              <td>Twitter</td>
+              <td onClick="location.href='http://www.twitter.com';">
+                http://www.twitter.com></td>
+            </tr>
+            
+          </table>
+          <button class="table-button">
+            <p>+ add new</p>
+          </button>
+        </section>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
